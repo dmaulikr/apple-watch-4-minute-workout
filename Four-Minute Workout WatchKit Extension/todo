@@ -1,0 +1,21 @@
+build out interface controller for 4-minute workout
+
+image colors: orange: #ffba00
+
+release 1.0
+-------
+
+    iphone app
+    - settings for when to show reminder
+    - view stats, lifetime workouts completed, in a row completed, current streak (use shared container/handoff)
+    notification controller - 30m
+    - show reminder to do workout every 24-hr
+    - stats on notification - current streak
+    - button to start it
+
+
+
+later
+    - option for 7 minute workout
+    - source all animation assets for workouts (2-3 frames) - 1hr
+    - on change of workout, vibrate watch.  need new sdk
