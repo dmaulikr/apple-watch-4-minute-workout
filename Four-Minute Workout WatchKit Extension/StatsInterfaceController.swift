@@ -101,7 +101,7 @@ class StatsInterfaceController: WKInterfaceController {
             statsStreak = 0
         }
         if ((defaults.objectForKey(kKeyLastDay)) != nil){
-            statsLastDay = defaults.objectForKey(kKeyLastDay) as NSDate
+            statsLastDay = defaults.objectForKey(kKeyLastDay) as! NSDate
         }
         
         self.setStatsLabels()
@@ -113,7 +113,7 @@ class StatsInterfaceController: WKInterfaceController {
     }
 
     func setStatsLabels(){
-        if ((statsLastDay?) != nil){
+        if (statsLastDay != nil){
             lblLastDay.setText("Last Workout\(statsLastDay.monthDay())")
         }
         else{

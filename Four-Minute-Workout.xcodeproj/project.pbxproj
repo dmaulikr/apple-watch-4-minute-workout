@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91147CCA1B1FE22E001C8EB8 /* Four-Minute-Workout WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9138B8EA1AD09BC7006C242D /* Four-Minute-Workout WatchKit App.app */; };
 		9123264F1AD221530048463F /* ProgressBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9123264E1AD221530048463F /* ProgressBar.png */; };
 		912326511AD234ED0048463F /* StatsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912326501AD234ED0048463F /* StatsInterfaceController.swift */; };
 		9138B8BA1AD09B93006C242D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9138B8B91AD09B93006C242D /* AppDelegate.swift */; };
@@ -18,14 +19,25 @@
 		9138B8E31AD09BC7006C242D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9138B8E21AD09BC7006C242D /* InterfaceController.swift */; };
 		9138B8E51AD09BC7006C242D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9138B8E41AD09BC7006C242D /* NotificationController.swift */; };
 		9138B8E71AD09BC7006C242D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9138B8E61AD09BC7006C242D /* Images.xcassets */; };
-		9138B8EB1AD09BC7006C242D /* Four-Minute Workout WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9138B8EA1AD09BC7006C242D /* Four-Minute Workout WatchKit App.app */; };
+		9138B8EB1AD09BC7006C242D /* Four-Minute-Workout WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9138B8EA1AD09BC7006C242D /* Four-Minute-Workout WatchKit App.app */; };
 		9138B8F31AD09BC7006C242D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9138B8F11AD09BC7006C242D /* Interface.storyboard */; };
 		9138B8F51AD09BC7006C242D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9138B8F41AD09BC7006C242D /* Images.xcassets */; };
-		9138B8F81AD09BC7006C242D /* Four-Minute Workout WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9138B8DD1AD09BC7006C242D /* Four-Minute Workout WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9138B9011AD09C1D006C242D /* todo in Resources */ = {isa = PBXBuildFile; fileRef = 9138B9001AD09C1D006C242D /* todo */; };
+		91725F301B1FEBB300721D62 /* Four-Minute-Workout WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9138B8DD1AD09BC7006C242D /* Four-Minute-Workout WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91994B1E1B21113800AECC20 /* 4-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 91994B1D1B21113800AECC20 /* 4-1024px.png */; };
+		91994B221B2111B400AECC20 /* app-icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 91994B1F1B2111B400AECC20 /* app-icon-60.png */; };
+		91994B231B2111B400AECC20 /* app-icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 91994B201B2111B400AECC20 /* app-icon-120.png */; };
+		91994B241B2111B400AECC20 /* app-icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 91994B211B2111B400AECC20 /* app-icon-180.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		91147CCB1B1FE22E001C8EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9138B8AC1AD09B93006C242D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9138B8E91AD09BC7006C242D;
+			remoteInfo = "Four Minute Workout WatchKit App";
+		};
 		9138B8CA1AD09B93006C242D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9138B8AC1AD09B93006C242D /* Project object */;
@@ -40,23 +52,23 @@
 			remoteGlobalIDString = 9138B8E91AD09BC7006C242D;
 			remoteInfo = "Four-Minute Workout WatchKit App";
 		};
-		9138B8F61AD09BC7006C242D /* PBXContainerItemProxy */ = {
+		91725F311B1FEBB300721D62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9138B8AC1AD09B93006C242D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9138B8DC1AD09BC7006C242D;
-			remoteInfo = "Four-Minute Workout WatchKit Extension";
+			remoteInfo = "Four-Minute-Workout WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9138B8FF1AD09BC7006C242D /* Embed App Extensions */ = {
+		91725F331B1FEBB300721D62 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9138B8F81AD09BC7006C242D /* Four-Minute Workout WatchKit Extension.appex in Embed App Extensions */,
+				91725F301B1FEBB300721D62 /* Four-Minute-Workout WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,27 +78,31 @@
 /* Begin PBXFileReference section */
 		9123264E1AD221530048463F /* ProgressBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProgressBar.png; path = "Four-Minute Workout WatchKit Extension/Resources/ProgressBar.png"; sourceTree = SOURCE_ROOT; };
 		912326501AD234ED0048463F /* StatsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsInterfaceController.swift; sourceTree = "<group>"; };
-		9138B8B41AD09B93006C242D /* Four-Minute Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Four-Minute Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9138B8B41AD09B93006C242D /* Four-Minute-Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Four-Minute-Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9138B8B81AD09B93006C242D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9138B8B91AD09B93006C242D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9138B8BB1AD09B93006C242D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9138B8BE1AD09B93006C242D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9138B8C01AD09B93006C242D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9138B8C31AD09B93006C242D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9138B8C91AD09B93006C242D /* Four-Minute WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Four-Minute WorkoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9138B8C91AD09B93006C242D /* Four-Minute-WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Four-Minute-WorkoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9138B8CE1AD09B93006C242D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9138B8CF1AD09B93006C242D /* Four_Minute_WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four_Minute_WorkoutTests.swift; sourceTree = "<group>"; };
-		9138B8DD1AD09BC7006C242D /* Four-Minute Workout WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Four-Minute Workout WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9138B8DD1AD09BC7006C242D /* Four-Minute-Workout WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Four-Minute-Workout WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9138B8E01AD09BC7006C242D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9138B8E11AD09BC7006C242D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		9138B8E21AD09BC7006C242D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		9138B8E41AD09BC7006C242D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		9138B8E61AD09BC7006C242D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9138B8EA1AD09BC7006C242D /* Four-Minute Workout WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Four-Minute Workout WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9138B8EA1AD09BC7006C242D /* Four-Minute-Workout WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Four-Minute-Workout WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9138B8F01AD09BC7006C242D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9138B8F21AD09BC7006C242D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		9138B8F41AD09BC7006C242D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9138B9001AD09C1D006C242D /* todo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo; sourceTree = "<group>"; };
+		91994B1D1B21113800AECC20 /* 4-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-1024px.png"; sourceTree = "<group>"; };
+		91994B1F1B2111B400AECC20 /* app-icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-60.png"; sourceTree = "<group>"; };
+		91994B201B2111B400AECC20 /* app-icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-120.png"; sourceTree = "<group>"; };
+		91994B211B2111B400AECC20 /* app-icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-180.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,10 +144,10 @@
 		9138B8B51AD09B93006C242D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9138B8B41AD09B93006C242D /* Four-Minute Workout.app */,
-				9138B8C91AD09B93006C242D /* Four-Minute WorkoutTests.xctest */,
-				9138B8DD1AD09BC7006C242D /* Four-Minute Workout WatchKit Extension.appex */,
-				9138B8EA1AD09BC7006C242D /* Four-Minute Workout WatchKit App.app */,
+				9138B8B41AD09B93006C242D /* Four-Minute-Workout.app */,
+				9138B8C91AD09B93006C242D /* Four-Minute-WorkoutTests.xctest */,
+				9138B8DD1AD09BC7006C242D /* Four-Minute-Workout WatchKit Extension.appex */,
+				9138B8EA1AD09BC7006C242D /* Four-Minute-Workout WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +160,10 @@
 				9138B8BD1AD09B93006C242D /* Main.storyboard */,
 				9138B8C01AD09B93006C242D /* Images.xcassets */,
 				9138B8C21AD09B93006C242D /* LaunchScreen.xib */,
+				91994B1D1B21113800AECC20 /* 4-1024px.png */,
+				91994B1F1B2111B400AECC20 /* app-icon-60.png */,
+				91994B201B2111B400AECC20 /* app-icon-120.png */,
+				91994B211B2111B400AECC20 /* app-icon-180.png */,
 				9138B8B71AD09B93006C242D /* Supporting Files */,
 			);
 			path = "Four-Minute Workout";
@@ -218,28 +238,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9138B8B31AD09B93006C242D /* Four-Minute Workout */ = {
+		9138B8B31AD09B93006C242D /* Four-Minute-Workout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9138B8D31AD09B93006C242D /* Build configuration list for PBXNativeTarget "Four-Minute Workout" */;
+			buildConfigurationList = 9138B8D31AD09B93006C242D /* Build configuration list for PBXNativeTarget "Four-Minute-Workout" */;
 			buildPhases = (
 				9138B8B01AD09B93006C242D /* Sources */,
 				9138B8B11AD09B93006C242D /* Frameworks */,
 				9138B8B21AD09B93006C242D /* Resources */,
-				9138B8FF1AD09BC7006C242D /* Embed App Extensions */,
+				91725F331B1FEBB300721D62 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9138B8F71AD09BC7006C242D /* PBXTargetDependency */,
+				91147CCC1B1FE22E001C8EB8 /* PBXTargetDependency */,
+				91725F321B1FEBB300721D62 /* PBXTargetDependency */,
 			);
-			name = "Four-Minute Workout";
+			name = "Four-Minute-Workout";
 			productName = "Four-Minute Workout";
-			productReference = 9138B8B41AD09B93006C242D /* Four-Minute Workout.app */;
+			productReference = 9138B8B41AD09B93006C242D /* Four-Minute-Workout.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9138B8C81AD09B93006C242D /* Four-Minute WorkoutTests */ = {
+		9138B8C81AD09B93006C242D /* Four-Minute-WorkoutTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9138B8D61AD09B93006C242D /* Build configuration list for PBXNativeTarget "Four-Minute WorkoutTests" */;
+			buildConfigurationList = 9138B8D61AD09B93006C242D /* Build configuration list for PBXNativeTarget "Four-Minute-WorkoutTests" */;
 			buildPhases = (
 				9138B8C51AD09B93006C242D /* Sources */,
 				9138B8C61AD09B93006C242D /* Frameworks */,
@@ -250,14 +271,14 @@
 			dependencies = (
 				9138B8CB1AD09B93006C242D /* PBXTargetDependency */,
 			);
-			name = "Four-Minute WorkoutTests";
+			name = "Four-Minute-WorkoutTests";
 			productName = "Four-Minute WorkoutTests";
-			productReference = 9138B8C91AD09B93006C242D /* Four-Minute WorkoutTests.xctest */;
+			productReference = 9138B8C91AD09B93006C242D /* Four-Minute-WorkoutTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9138B8DC1AD09BC7006C242D /* Four-Minute Workout WatchKit Extension */ = {
+		9138B8DC1AD09BC7006C242D /* Four-Minute-Workout WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9138B8FC1AD09BC7006C242D /* Build configuration list for PBXNativeTarget "Four-Minute Workout WatchKit Extension" */;
+			buildConfigurationList = 9138B8FC1AD09BC7006C242D /* Build configuration list for PBXNativeTarget "Four-Minute-Workout WatchKit Extension" */;
 			buildPhases = (
 				9138B8D91AD09BC7006C242D /* Sources */,
 				9138B8DA1AD09BC7006C242D /* Frameworks */,
@@ -268,14 +289,14 @@
 			dependencies = (
 				9138B8ED1AD09BC7006C242D /* PBXTargetDependency */,
 			);
-			name = "Four-Minute Workout WatchKit Extension";
+			name = "Four-Minute-Workout WatchKit Extension";
 			productName = "Four-Minute Workout WatchKit Extension";
-			productReference = 9138B8DD1AD09BC7006C242D /* Four-Minute Workout WatchKit Extension.appex */;
+			productReference = 9138B8DD1AD09BC7006C242D /* Four-Minute-Workout WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit-extension";
 		};
-		9138B8E91AD09BC7006C242D /* Four-Minute Workout WatchKit App */ = {
+		9138B8E91AD09BC7006C242D /* Four-Minute-Workout WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9138B8F91AD09BC7006C242D /* Build configuration list for PBXNativeTarget "Four-Minute Workout WatchKit App" */;
+			buildConfigurationList = 9138B8F91AD09BC7006C242D /* Build configuration list for PBXNativeTarget "Four-Minute-Workout WatchKit App" */;
 			buildPhases = (
 				9138B8E81AD09BC7006C242D /* Resources */,
 			);
@@ -283,9 +304,9 @@
 			);
 			dependencies = (
 			);
-			name = "Four-Minute Workout WatchKit App";
+			name = "Four-Minute-Workout WatchKit App";
 			productName = "Four-Minute Workout WatchKit App";
-			productReference = 9138B8EA1AD09BC7006C242D /* Four-Minute Workout WatchKit App.app */;
+			productReference = 9138B8EA1AD09BC7006C242D /* Four-Minute-Workout WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
@@ -294,11 +315,12 @@
 		9138B8AC1AD09B93006C242D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Yeungs Labs";
 				TargetAttributes = {
 					9138B8B31AD09B93006C242D = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = L6EPKMM8AX;
 					};
 					9138B8C81AD09B93006C242D = {
 						CreatedOnToolsVersion = 6.2;
@@ -309,10 +331,11 @@
 					};
 					9138B8E91AD09BC7006C242D = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = L6EPKMM8AX;
 					};
 				};
 			};
-			buildConfigurationList = 9138B8AF1AD09B93006C242D /* Build configuration list for PBXProject "Four-Minute Workout" */;
+			buildConfigurationList = 9138B8AF1AD09B93006C242D /* Build configuration list for PBXProject "Four-Minute-Workout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -325,10 +348,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9138B8B31AD09B93006C242D /* Four-Minute Workout */,
-				9138B8C81AD09B93006C242D /* Four-Minute WorkoutTests */,
-				9138B8DC1AD09BC7006C242D /* Four-Minute Workout WatchKit Extension */,
-				9138B8E91AD09BC7006C242D /* Four-Minute Workout WatchKit App */,
+				9138B8B31AD09B93006C242D /* Four-Minute-Workout */,
+				9138B8C81AD09B93006C242D /* Four-Minute-WorkoutTests */,
+				9138B8DC1AD09BC7006C242D /* Four-Minute-Workout WatchKit Extension */,
+				9138B8E91AD09BC7006C242D /* Four-Minute-Workout WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -338,9 +361,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91147CCA1B1FE22E001C8EB8 /* Four-Minute-Workout WatchKit App.app in Resources */,
 				9138B8BF1AD09B93006C242D /* Main.storyboard in Resources */,
+				91994B231B2111B400AECC20 /* app-icon-120.png in Resources */,
+				91994B1E1B21113800AECC20 /* 4-1024px.png in Resources */,
 				9138B8C41AD09B93006C242D /* LaunchScreen.xib in Resources */,
+				91994B221B2111B400AECC20 /* app-icon-60.png in Resources */,
 				9138B8C11AD09B93006C242D /* Images.xcassets in Resources */,
+				91994B241B2111B400AECC20 /* app-icon-180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +385,7 @@
 			files = (
 				9138B9011AD09C1D006C242D /* todo in Resources */,
 				9138B8E71AD09BC7006C242D /* Images.xcassets in Resources */,
-				9138B8EB1AD09BC7006C242D /* Four-Minute Workout WatchKit App.app in Resources */,
+				9138B8EB1AD09BC7006C242D /* Four-Minute-Workout WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,20 +432,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		91147CCC1B1FE22E001C8EB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9138B8E91AD09BC7006C242D /* Four-Minute-Workout WatchKit App */;
+			targetProxy = 91147CCB1B1FE22E001C8EB8 /* PBXContainerItemProxy */;
+		};
 		9138B8CB1AD09B93006C242D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9138B8B31AD09B93006C242D /* Four-Minute Workout */;
+			target = 9138B8B31AD09B93006C242D /* Four-Minute-Workout */;
 			targetProxy = 9138B8CA1AD09B93006C242D /* PBXContainerItemProxy */;
 		};
 		9138B8ED1AD09BC7006C242D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9138B8E91AD09BC7006C242D /* Four-Minute Workout WatchKit App */;
+			target = 9138B8E91AD09BC7006C242D /* Four-Minute-Workout WatchKit App */;
 			targetProxy = 9138B8EC1AD09BC7006C242D /* PBXContainerItemProxy */;
 		};
-		9138B8F71AD09BC7006C242D /* PBXTargetDependency */ = {
+		91725F321B1FEBB300721D62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9138B8DC1AD09BC7006C242D /* Four-Minute Workout WatchKit Extension */;
-			targetProxy = 9138B8F61AD09BC7006C242D /* PBXContainerItemProxy */;
+			target = 9138B8DC1AD09BC7006C242D /* Four-Minute-Workout WatchKit Extension */;
+			targetProxy = 91725F311B1FEBB300721D62 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -466,7 +499,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeffrey Yeung (L6EPKMM8AX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeffrey Yeung (L6EPKMM8AX)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -508,7 +542,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeffrey Yeung (L6EPKMM8AX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeffrey Yeung (L6EPKMM8AX)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -530,10 +565,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Four-Minute Workout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Four-Minute-Workout";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -541,10 +578,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Four-Minute Workout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Four-Minute-Workout";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -562,7 +601,7 @@
 				);
 				INFOPLIST_FILE = "Four-Minute WorkoutTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Four-Minute-WorkoutTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Four-Minute Workout.app/Four-Minute Workout";
 			};
 			name = Debug;
@@ -577,7 +616,7 @@
 				);
 				INFOPLIST_FILE = "Four-Minute WorkoutTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Four-Minute-WorkoutTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Four-Minute Workout.app/Four-Minute Workout";
 			};
 			name = Release;
@@ -587,13 +626,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				IBSC_MODULE = Four_Minute_Workout_WatchKit_Extension;
 				INFOPLIST_FILE = "Four-Minute Workout WatchKit App/Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Four-Minute-Workout WatchKit App";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -605,9 +645,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				IBSC_MODULE = Four_Minute_Workout_WatchKit_Extension;
 				INFOPLIST_FILE = "Four-Minute Workout WatchKit App/Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Four-Minute-Workout WatchKit App";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -617,13 +658,14 @@
 		9138B8FD1AD09BC7006C242D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Four-Minute Workout WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "Four-Minute-Workout WatchKit Extension";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -631,9 +673,10 @@
 		9138B8FE1AD09BC7006C242D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Four-Minute Workout WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "Four-Minute-Workout WatchKit Extension";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -641,7 +684,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9138B8AF1AD09B93006C242D /* Build configuration list for PBXProject "Four-Minute Workout" */ = {
+		9138B8AF1AD09B93006C242D /* Build configuration list for PBXProject "Four-Minute-Workout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9138B8D11AD09B93006C242D /* Debug */,
@@ -650,7 +693,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9138B8D31AD09B93006C242D /* Build configuration list for PBXNativeTarget "Four-Minute Workout" */ = {
+		9138B8D31AD09B93006C242D /* Build configuration list for PBXNativeTarget "Four-Minute-Workout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9138B8D41AD09B93006C242D /* Debug */,
@@ -659,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9138B8D61AD09B93006C242D /* Build configuration list for PBXNativeTarget "Four-Minute WorkoutTests" */ = {
+		9138B8D61AD09B93006C242D /* Build configuration list for PBXNativeTarget "Four-Minute-WorkoutTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9138B8D71AD09B93006C242D /* Debug */,
@@ -668,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9138B8F91AD09BC7006C242D /* Build configuration list for PBXNativeTarget "Four-Minute Workout WatchKit App" */ = {
+		9138B8F91AD09BC7006C242D /* Build configuration list for PBXNativeTarget "Four-Minute-Workout WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9138B8FA1AD09BC7006C242D /* Debug */,
@@ -677,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9138B8FC1AD09BC7006C242D /* Build configuration list for PBXNativeTarget "Four-Minute Workout WatchKit Extension" */ = {
+		9138B8FC1AD09BC7006C242D /* Build configuration list for PBXNativeTarget "Four-Minute-Workout WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9138B8FD1AD09BC7006C242D /* Debug */,

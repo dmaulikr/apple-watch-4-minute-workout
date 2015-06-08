@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0620"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9138B8B31AD09B93006C242D"
-               BuildableName = "Four-Minute Workout.app"
-               BlueprintName = "Four-Minute Workout"
-               ReferencedContainer = "container:Four-Minute Workout.xcodeproj">
+               BuildableName = "Four-Minute-Workout.app"
+               BlueprintName = "Four-Minute-Workout"
+               ReferencedContainer = "container:Four-Minute-Workout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9138B8C81AD09B93006C242D"
-               BuildableName = "Four-Minute WorkoutTests.xctest"
-               BlueprintName = "Four-Minute WorkoutTests"
-               ReferencedContainer = "container:Four-Minute Workout.xcodeproj">
+               BuildableName = "Four-Minute-WorkoutTests.xctest"
+               BlueprintName = "Four-Minute-WorkoutTests"
+               ReferencedContainer = "container:Four-Minute-Workout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9138B8C81AD09B93006C242D"
-               BuildableName = "Four-Minute WorkoutTests.xctest"
-               BlueprintName = "Four-Minute WorkoutTests"
-               ReferencedContainer = "container:Four-Minute Workout.xcodeproj">
+               BuildableName = "Four-Minute-WorkoutTests.xctest"
+               BlueprintName = "Four-Minute-WorkoutTests"
+               ReferencedContainer = "container:Four-Minute-Workout.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9138B8B31AD09B93006C242D"
-            BuildableName = "Four-Minute Workout.app"
-            BlueprintName = "Four-Minute Workout"
-            ReferencedContainer = "container:Four-Minute Workout.xcodeproj">
+            BuildableName = "Four-Minute-Workout.app"
+            BlueprintName = "Four-Minute-Workout"
+            ReferencedContainer = "container:Four-Minute-Workout.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9138B8B31AD09B93006C242D"
-            BuildableName = "Four-Minute Workout.app"
-            BlueprintName = "Four-Minute Workout"
-            ReferencedContainer = "container:Four-Minute Workout.xcodeproj">
+            BuildableName = "Four-Minute-Workout.app"
+            BlueprintName = "Four-Minute-Workout"
+            ReferencedContainer = "container:Four-Minute-Workout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9138B8B31AD09B93006C242D"
-            BuildableName = "Four-Minute Workout.app"
-            BlueprintName = "Four-Minute Workout"
-            ReferencedContainer = "container:Four-Minute Workout.xcodeproj">
+            BuildableName = "Four-Minute-Workout.app"
+            BlueprintName = "Four-Minute-Workout"
+            ReferencedContainer = "container:Four-Minute-Workout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

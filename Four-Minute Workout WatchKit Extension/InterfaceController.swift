@@ -109,7 +109,7 @@ class InterfaceController: WKInterfaceController {
             statsStreak = 0
         }
         if ((defaults.objectForKey(kKeyLastDay)) != nil){
-            statsLastDay = defaults.objectForKey(kKeyLastDay) as NSDate
+            statsLastDay = defaults.objectForKey(kKeyLastDay) as! NSDate
         }
         
         //TODO: add option to change exercises and not just load default
@@ -140,12 +140,13 @@ class InterfaceController: WKInterfaceController {
         }
         else if (currentState == State(rawValue: 1)){
             currentState = State(rawValue: 0)!
-            timer.invalidate()
-            timer = nil
-            wkTimer.stop()
-            btnStartPause.setTitle("START")
-            wkTimer.setHidden(true)
-            
+            if (timer != nil){
+                timer.invalidate()
+                timer = nil
+                wkTimer.stop()
+                btnStartPause.setTitle("START")
+                wkTimer.setHidden(true)
+            }
 //            changeWorkoutState(kStateDone)
         }
     }
@@ -156,12 +157,13 @@ class InterfaceController: WKInterfaceController {
     func loadDefaultExercises()
     {
         // loads default exercises
-        arrayExercises.append(kStateStarting);
+        arrayExercises.append(kStateStarting)
         
-        for var i = kStateRun; i < kStateMountainClimber; ++i{
+        for var i = kStateRun; i <= kStateMountainClimber; ++i{
             arrayExercises.append(i)
             arrayExercises.append(kStateRest)
         }
+        arrayExercises.append(kStateDone)
             
     }
     
@@ -172,6 +174,7 @@ class InterfaceController: WKInterfaceController {
         {
         case kStateStarting:
             lblWorkout.setText("Starting...")
+            imgProgress.setWidth(0)
             wkTimer.setHidden(false)
             imgWorkout.setHidden(false)
             break
@@ -203,6 +206,10 @@ class InterfaceController: WKInterfaceController {
             lblWorkout.setText("Mountain Climbers")
             break
         case kStateDone:
+            
+            imgProgress.setWidth(200)
+            
+            wkTimer.stop()
             wkTimer.setHidden(true)
             imgWorkout.setHidden(true)
             
@@ -221,17 +228,23 @@ class InterfaceController: WKInterfaceController {
                 }
 
             }
-            lblWorkout.setText("Current Sreak: \(statsStreak)")
             
             // set last day stat
             statsLastDay = NSDate()
             statsLifetime = statsLifetime + 1
+            
+            lblWorkout.setText("Current Sreak: \(statsStreak)")
+            
+            timer.invalidate()
+            timer = nil
             
             btnStartPause.setTitle("DONE")
             
             defaults.setInteger(statsLifetime, forKey: kKeyLifetime)
             defaults.setInteger(statsStreak, forKey: kKeyStreak)
             defaults.setObject(statsLastDay, forKey: kKeyLastDay)
+            
+            return
             
             break
         default:
@@ -245,12 +258,14 @@ class InterfaceController: WKInterfaceController {
             time = 6
         }
         else if (workoutNumber == kStateRest){
-            time = 11
+            time = 1
+//            time = 11
         }
         else{
-            let width : CGFloat = (CGFloat(workoutNumber) - 3.0) * 136 / 8.0
+            let width : CGFloat = (CGFloat(workoutNumber) - 2.0) * 136 / 8.0
             imgProgress.setWidth(width)
-            time = 21
+            time = 1
+//            time = 21
         }
         
         wkTimer.setDate(NSDate(timeIntervalSinceNow: time))
@@ -266,7 +281,6 @@ class InterfaceController: WKInterfaceController {
         }
         else
         {
-            //display done message
         }
     }
     
